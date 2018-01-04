@@ -10,6 +10,8 @@ once while using a Linux kernel without fuckwit, and once for the same with
 fuckwitted kernel.
 
 # Plots
+Read this:
+https://github.com/Al-Caveman/fuckwit_benchmark/blob/master/report/report.pdf
 
 # Notes
 I am emotionally not maximally satisfied that Linus Torvalds adopted KPTI
