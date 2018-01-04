@@ -1,0 +1,20 @@
+time dd count=10000000 if=/dev/zero of=fuck
+10000000+0 records in
+10000000+0 records out
+5120000000 bytes (5.1 GB, 4.8 GiB) copied, 16.6919 s, 307 MB/s
+0.77user 9.68system 0:16.76elapsed 62%CPU (0avgtext+0avgdata 1932maxresident)k
+0inputs+10000000outputs (0major+75minor)pagefaults 0swaps
+
+time dd count=10000000 if=/dev/zero of=fuck
+10000000+0 records in
+10000000+0 records out
+5120000000 bytes (5.1 GB, 4.8 GiB) copied, 17.5194 s, 292 MB/s
+0.68user 9.97system 0:17.77elapsed 59%CPU (0avgtext+0avgdata 2032maxresident)k
+16inputs+10000000outputs (1major+77minor)pagefaults 0swaps
+
+time dd count=10000000 if=/dev/zero of=fuck
+10000000+0 records in
+10000000+0 records out
+5120000000 bytes (5.1 GB, 4.8 GiB) copied, 17.6105 s, 291 MB/s
+0.74user 9.85system 0:17.86elapsed 59%CPU (0avgtext+0avgdata 2112maxresident)k
+16inputs+10000000outputs (1major+76minor)pagefaults 0swaps
